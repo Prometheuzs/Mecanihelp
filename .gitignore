@@ -1,0 +1,13 @@
+# Ambiente / Editores
+.vscode/
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Configurações Sigilosas e Locais
+/app/config/config.php
+
+# Ignorar banco sqlite local se houver testes (opicional)
+*.sqlite

@@ -1,0 +1,39 @@
+:root {
+  /* Azul (matiz base 215°) */
+  --blue-50:  hsl(215, 100%, 97%);
+  --blue-100: hsl(215, 95%, 92%);
+  --blue-200: hsl(215, 90%, 84%);
+  --blue-300: hsl(215, 85%, 72%);
+  --blue-400: hsl(215, 80%, 60%);
+  --blue-500: hsl(215, 75%, 50%);   /* cor primária */
+  --blue-600: hsl(215, 80%, 42%);
+  --blue-700: hsl(215, 85%, 34%);
+  --blue-800: hsl(215, 88%, 26%);
+  --blue-900: hsl(215, 90%, 18%);
+
+  /* Neutros com leve tom azulado */
+  --gray-50:  hsl(215, 25%, 98%);
+  --gray-100: hsl(215, 20%, 95%);
+  --gray-200: hsl(215, 16%, 89%);
+  --gray-400: hsl(215, 12%, 62%);
+  --gray-600: hsl(215, 14%, 38%);
+  --gray-900: hsl(215, 25%, 14%);
+
+  /* Semânticas (sempre em HSL, saturação contida) */
+  --success: hsl(150, 55%, 38%);
+  --warning: hsl(38, 90%, 48%);
+  --danger:  hsl(355, 70%, 48%);
+
+  /* Tokens de uso */
+  --bg: var(--gray-50);
+  --surface: hsl(0, 0%, 100%);
+  --border: var(--gray-200);
+  --text: var(--gray-900);
+  --text-muted: var(--gray-600);
+  --primary: var(--blue-500);
+  --primary-hover: var(--blue-600);
+
+  --radius: 8px;
+  --space-1: .25rem; --space-2: .5rem; --space-3: 1rem; --space-4: 1.5rem; --space-5: 2.5rem;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
